@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #19a1ae;
+    height: 100vh;
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-position: top -500px left -340px, bottom -650px right -295px;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+
+
+.profile {
+    width: 350px;
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+      
+}
+
+
+.circles-div {
+    width: 100%;
+    height: 140px;
+    background-color: #41CBD3;
+    border-radius: 15px 15px 0 0;
+    background-image: url("./images/bg-pattern-card.svg");
+    
+}
+
+.pr {
+    
+    border-radius: 100%;
+    margin: -48px calc(50% - 48px);
+    border: 5px white solid;
+    
+}
+
+.name {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    padding-top: 72px;
+    font-size: 18px;
+    padding-left: 108px;
+}
+
+.span-1 {
+    padding-left: 8.5px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+.london {
+    padding-top: 13px;
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+hr {
+    background-color: #E8E9EC;
+    height: 1px;
+    border: none;
+    margin-top: 28px;
+}
+
+.stats {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 27px;
+    max-width: 100%;
+    justify-content: space-evenly;
+    
+}
+
+.followers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 57px;
+}
+
+.p-80k {
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.p-foll {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+
+}
+
+.likes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 57px;
+}
+
+.p-803k {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.p-likes {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    width: 57px;
+}
+
+.p-14k {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.p-photos {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
